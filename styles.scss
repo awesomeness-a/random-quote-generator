@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anaheim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #165297;
+  color: #165297;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+.footer {
+  width: 500px;
+  text-align: center;
+  display: block;
+  margin: 40px auto 30px auto;
+  font-size: 1em;
+  font-family: "Anaheim", sans-serif;
+  color: #789CC3;
+}
+.footer a {
+  text-decoration: none;
+  color: #D8D5F1;
+}
+.footer #highlight {
+  background-color: #D8D5F1;
+  color: #165297;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.footer #highlight:hover {
+  opacity: 0.8;
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 500px;
+  padding: 50px 50px;
+  display: table;
+  background-color: #D8D5F1;
+}
+#quote-box .quote-text {
+  text-align: left;
+  font-weight: 500;
+  width: 500px;
+  height: auto;
+  clear: both;
+  font-size: 1.75em;
+}
+#quote-box .quote-text i {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+#quote-box .quote-author {
+  width: 500px;
+  font-style: italic;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+#quote-box .buttons {
+  width: 500px;
+  margin: auto;
+  padding-top: 30px;
+  display: block;
+}
+#quote-box .buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #165297;
+  outline: none;
+  font-size: 0.9em;
+  font-family: "Anaheim";
+  padding: 6px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+#quote-box .buttons .button:hover {
+  opacity: 0.8;
+}
+#quote-box .buttons .button#tweet-quote, #quote-box .buttons .button#fb-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.1em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+#quote-box .buttons .button#new-quote {
+  float: right;
+}
