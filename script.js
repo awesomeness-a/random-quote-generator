@@ -9,7 +9,7 @@ const getQuotes = () => {
     headers: {
       Accept: 'application/json'
     },
-    url: 'https://gist.githubusercontent.com/homotechno/a83dfbc7c104e6a2d098bc4ce7d5291b/raw/fb961d2a5ed9a127cafe858ee95c8efad548cdbe/quotes.json',
+    url: 'https://gist.githubusercontent.com/homotechno/a83dfbc7c104e6a2d098bc4ce7d5291b/raw/f80647d791d8a8d24f6bbff3441a211cae744eea/quotes.json',
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
         quotesData = JSON.parse(jsonQuotes);
